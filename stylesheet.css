@@ -1,0 +1,215 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+
+  background:#fdf5e6;
+  font-family:"Yu Gothic UI";
+}
+
+
+
+
+.header{
+  background:#7fffd4;
+  height:60px;
+  color:#008b8b;
+  position: fixed; /* ヘッダーを固定(これが重要) */
+  top: 0; /* 固定する位置 */
+  left: 0; /* 固定する位置 */
+  right: 0;  /* 固定する位置 */
+
+}
+
+.header-logo{
+  font-family:"Arial Black";
+  font-size:30px;
+  float:left;
+  margin:10px;
+}
+
+/* a リンクの制御 */
+
+.header-logo a{
+  text-decoration:none;
+}
+.header-logo a:link{
+  color:#008b8b;
+
+}
+
+.header-logo a:visited{
+  color:#008b8b;
+}
+
+.header-logo a:hover{
+  color:#008b8b;
+  text-decoration:underline;
+}
+
+.header-logo a:active{
+  color:#008b8b;
+}
+
+
+.header-list li{
+  list-style:none;
+  float:right;
+  padding:20px;
+
+}
+
+
+
+
+.main{
+  padding:50px 20px 20px 20px;
+  background:#FFEBCD;
+
+}
+
+.copy-container{
+  padding-top:20px;
+}
+
+.contents {
+  padding:20px 20px 300px 20px;
+  margin-bottom:200px;
+
+}
+
+.contents-item{
+float:left;
+padding-top:30px;
+padding-left:200px;
+
+}
+
+.contents a{
+  text-decoration:none;
+}
+.contents a:link{
+  color:black;
+
+}
+
+.contents a:visited{
+  color:black;
+}
+
+.contents a:hover{
+  color:black;
+  text-decoration:underline;
+}
+
+.contents a:active{
+  color:black;
+}
+
+
+
+.contact-form{
+  padding:20px;
+  margin-top:20px;
+
+
+}
+
+
+
+h3{
+  font-family:'Yu Gothic UI','Constantia';
+  border-bottom:2px solid #dcdcdc;
+  padding-bottom:10px;
+  margin-top:20px;
+}
+
+span{
+  color:red;
+  font-size:40px;
+}
+
+.form-list h2{
+  padding-top:30px;
+}
+
+.true-form{
+  padding-top:60px;
+}
+
+input,textarea{
+  width:400px;
+  padding:10px;
+  margin-top:20px;
+  margin-bottom:40px;
+}
+
+
+.footer{
+  background:#4682b4;
+  height:120px;
+}
+
+.footer-logo{
+  font-size:40px;
+  float:left;
+  margin:10px;
+  padding-top:10px;
+}
+
+.footer-logo a{
+  text-decoration:none;
+}
+.footer-logo a:link{
+  color:black;
+
+}
+
+.footer-logo a:visited{
+  color:black;
+}
+
+.footer-logo a:hover{
+  color:black;
+  text-decoration:underline;
+}
+
+.footer-logo a:active{
+  color:black;
+}
+
+.footer-list {
+  float:right;
+  padding:10px;
+}
+
+.footer-list li{
+  font-family:'Constantia';
+  list-style:none;
+  font-size:20px;
+  padding-bottom:6px;
+
+}
+
+.footer-list a{
+  text-decoration:none;
+}
+.footer-list a:link{
+  color:black;
+
+}
+
+.footer-list a:visited{
+  color:black;
+}
+
+.footer-list a:hover{
+  color:black;
+  text-decoration:underline;
+}
+
+.footer-list a:active{
+  color:black;
+}
